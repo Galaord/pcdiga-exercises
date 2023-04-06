@@ -1,0 +1,28 @@
+.button1{
+    margin-top: 5px;
+    &:hover{
+        svg{
+            color:#ff4d23;
+        }
+    }
+    @media only screen and (max-width: 810px){
+        display: none;
+        opacity: 0;
+    }
+        
+    }
+.button2{
+    &:hover{
+        svg{
+            color:#ff4d23;
+        }
+    }
+}
+.navbar{
+    height: 96px;
+}
+.search-id{
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
