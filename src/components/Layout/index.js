@@ -1,5 +1,6 @@
 import Ads from '../Ads';
 import Deals from '../Deals';
+import Footer from '../Footer';
 import Highlights from '../Highlights';
 import Navibar from '../Navibar';
 import Productshowcase from '../Productshowcase';
@@ -18,6 +19,7 @@ const Layout = () => {
         <Highlights/>
         <Deals/>
         <Ads/>
+        <Footer/>
         </>
     );
 }

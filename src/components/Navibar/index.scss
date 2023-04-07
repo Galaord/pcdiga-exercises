@@ -18,8 +18,25 @@
         }
     }
 }
+.btn{
+    &:hover{
+        svg{
+            color:#ff4d23;
+        }
+    }
+}
 .navbar{
     height: 96px;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff4d23;
+  }
+.test-btn{
+    &:hover{
+        svg{
+            fill: #ff4d23 !important;
+        }
+    }
 }
 .search-id{
     border: none;
